@@ -37,8 +37,8 @@
                         <ul>
                         <li><a href="webdev">Web Portfolio</a></li>
                         <li><a href="photos">Photos</a></li>
-                        <li><a href="https://www.soundcloud.com/alpal309">Music</a></li>
-                        <li><a href="https://www.ahsoundandlighting.com">DJ</a></li>
+                        <li><a href="https://www.soundcloud.com/alpal309" target="_blank">Music</a></li>
+                        <li><a href="https://www.ahsoundandlighting.com" target="_blank">DJ</a></li>
                         <li><a href="blog">Blog</a></li>
                         <li><a href="projects">Projects</a></li>
                         </ul>
@@ -47,11 +47,10 @@
                 <div id="contact">
                     <ul>
                         <li><a href="mailto:inquire@alanphunt.com">inquire@alanphunt.com</a></li>
-                        <li><a href="images/resume.pdf">Resume</a></li>
-                        <li><a href="https://www.facebook.com/ahunt92">Facebook</a></li>
-                        <li><a href="https://www.linkedin.com/in/alanphiliphunt/">LinkedIn</a></li>
+                        <li><a href="images/resume.pdf" target="_blank">Resume</a></li>
+                        <li><a href="https://www.facebook.com/ahunt92" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.linkedin.com/in/alanphiliphunt/" target="_blank">LinkedIn</a></li>
                         <li><a href="#">YouTube</a></li>
-                        <li><a href="https://www.instagram.com/alpal309">Instagram</a></li>
                     </ul>
                 </div><!--contact-->
             </div><!--#mobileparent-->

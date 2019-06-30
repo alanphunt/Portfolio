@@ -1,10 +1,3 @@
-var images = document.getElementsByTagName("img");
-for (var i = 0; i < images.length; i++) {
-	images[i].addEventListener("click", function() {
-		imagemodal(this);
-	});
-}
-
 function closeit(e) {
 	e.parentElement.style.display = "none";
 	document.body.style.overflow = "visible";
@@ -52,11 +45,6 @@ function topFunction() {
 	up.scrollTop = 0;
 }
 
-function bottomFunction() {
-	var down = document.getElementById("text");
-	down.scrollTo(0, down.scrollHeight);
-}
-
 window.onscroll = function() {
 	var x = document.getElementById("clickformenu");	
 	
@@ -73,4 +61,12 @@ window.onload = function() {
 	if (window.innerWidth != document.documentElement.clientWidth) {
 		link.style.display = "block";
 	}
+	
+	var images = document.getElementsByTagName("img");
+	for (var i = 0; i < images.length; i++) {
+		images[i].addEventListener("click", function() {
+			imagemodal(this);
+		});
+	}
+
 }
